@@ -82,6 +82,7 @@ namespace PartsService.Controllers
                     existingParts.PartType = part.PartType;
                     existingParts.PartAvailableDate = part.PartAvailableDate;
                     existingParts.PartName = part.PartName;
+                    existingParts.price = part.price;
                 }
 
                 return new HttpResponseMessage(HttpStatusCode.OK);
