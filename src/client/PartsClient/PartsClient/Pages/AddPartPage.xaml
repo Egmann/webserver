@@ -10,6 +10,7 @@
                 <TableSection Title="Part Info">
                     <EntryCell Label="Part ID" Text="{Binding PartID}" IsEnabled="False" />
                     <EntryCell Label="Part Name" Text="{Binding PartName}" />
+                    <EntryCell Label="Part Price" Text="{Binding Price}" />
                     <EntryCell Label="Part Type" Text="{Binding PartType}" />
                     <EntryCell Label="Supplier" Text="{Binding Suppliers}" />
                 </TableSection>
